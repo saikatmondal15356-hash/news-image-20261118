@@ -5,18 +5,20 @@
 [![reward](https://make.fun/badge/news-image-20261118/saikatmondal15356-hash/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
 One image summing up the world's news of Wednesday 18 November 2026: a
-newspaper front page with a UTC timeline of the day, led by Xi greeting
-Trump in Shenzhen, Kuwait and Bahrain intercepting Iranian drones, and
-Voyager 1 reaching one light-day from Earth — 46 stories in all across
-7 regions, 11 drawn panels with larger type that reads at thumbnail size
-and at full size, a pinned world map, and a date check that separates Wednesday's news from
-Tuesday's (Nvidia's results, the Alaska Senate call, the US strike on
-Qeshm, the Kerch Bridge collapse, the An-12 crash in Siberia) and from
-what had not happened yet (Thursday's Trump–Xi–Putin summit, Anthropic's
-first trade, Cyclone Akvan's landfall). Also on the page: Amnesty's report
-on RSF drone strikes in El Obeid, Category 5 Cyclone Xavier in the Cook
-Islands, a magnitude 6.0 quake in Papua New Guinea, and Australia's
-sanctions on settler leader Daniella Weiss.
+newspaper front page with a UTC timeline of the day, led by Iran saying
+it fired at a US base in Kuwait, Xi greeting Trump in Shenzhen, and
+Voyager 1 reaching one light-day from Earth — 52 stories in all across
+7 regions, 16 drawn panels with labelled scenes and three-line decks
+that carry the facts, plus a pinned world map, and a date check that
+Wednesday's news from Tuesday's (the Gaza warning, the Qeshm strike, the
+Alaska Senate call, Nvidia's results, the Knesset vote, the Prague rail
+crash, COP31's first draft) and from what had not happened yet
+(Thursday's Trump–Xi–Putin summit, Anthropic's first trade, GTA VI's US
+release, Cyclone Akvan's landfall). Also on the page: Amnesty's report on
+RSF drone strikes in El Obeid, Category 5 Cyclone Xavier in the Cook
+Islands, a magnitude 6.0 quake in Papua New Guinea, Australia's sanctions
+on settler leader Daniella Weiss, and Iran's claim of downing a US MQ-9
+drone over the Strait of Hormuz.
 
 ## Run it
 
