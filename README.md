@@ -22,8 +22,9 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 
 `main.py` (Python 3.13, standard library only) decodes `entry.png.b64`
 — the 1024×1024 PNG front page, drawn during the build — and writes it
-to `$MAKEFUN_OUTPUT_DIR/entry.png`. No network, no clock, no randomness:
-two runs write the same bytes.
+to `$MAKEFUN_OUTPUT_DIR/entry.png`. It also checks the decoded bytes are
+a PNG under the 1 MiB limit and exactly 1024×1024. No network, no clock,
+no randomness: two runs write the same bytes.
 
 ---
 

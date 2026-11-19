@@ -10,6 +10,7 @@ and no randomness, so two runs write exactly the same bytes.
 """
 import base64
 import os
+import struct
 from pathlib import Path
 
 
@@ -22,10 +23,13 @@ def main():
         raise SystemExit("entry.png.b64 does not decode to a PNG")
     if len(image) > 1024 * 1024:
         raise SystemExit("decoded image is over the 1 MiB limit")
+    width, height = struct.unpack(">II", image[16:24])
+    if (width, height) != (1024, 1024):
+        raise SystemExit(f"decoded image is {width}x{height}, expected 1024x1024")
     out_dir.mkdir(parents=True, exist_ok=True)
     target = out_dir / "entry.png"
     target.write_bytes(image)
-    print(f"wrote {target} ({len(image)} bytes)")
+    print(f"wrote {target} ({len(image)} bytes, {width}x{height})")
 
 
 if __name__ == "__main__":
